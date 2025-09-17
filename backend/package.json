@@ -1,12 +1,17 @@
 {
   "name": "easy-read-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API for the Easy Read Toolkit demo",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "easy-read",
+    "express",
+    "ocr"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
